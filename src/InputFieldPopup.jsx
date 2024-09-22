@@ -27,7 +27,6 @@ export const storage = getStorage(app);
 const InputPopup = () => {
   // State to manage selected input type
   const [selectedInput, setSelectedInput] = useState("");
-  const [photo, setPhoto] = useState();
   const [progress, setProgress] = useState(0);
 
   // State for current input value
