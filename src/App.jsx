@@ -2,6 +2,7 @@
 import { useState } from "react";
 import "./App.css";
 import InputFieldPopup from "./InputFieldPopup";
+import MyEditor from "./Editor";
 
 const user = {
   name: "John Doe",
@@ -34,6 +35,8 @@ function App() {
 
         <button>Submit</button>
       </form>
+
+      <MyEditor />
     </div>
   );
 }

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { getDownloadURL, ref, uploadBytesResumable } from "firebase/storage";
 
+
 /** please makesure this configuration is written in another file and you will import the storage where needed */
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
